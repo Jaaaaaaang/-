@@ -1,0 +1,1129 @@
+{
+ "zone_risk_profile": {
+  "D2": {
+   "near_miss": 4.0,
+   "prox_alert": 0,
+   "mix_slots": 24,
+   "people_avg": 9.9,
+   "crane_slots": 0,
+   "insp_open": 7,
+   "insp_recur": 4.0,
+   "risk_max": 15,
+   "high_days": 16.0,
+   "risk_index": 67.8
+  },
+  "B2": {
+   "near_miss": 2.0,
+   "prox_alert": 83,
+   "mix_slots": 120,
+   "people_avg": 6.7,
+   "crane_slots": 0,
+   "insp_open": 2,
+   "insp_recur": 0.0,
+   "risk_max": 20,
+   "high_days": 2.0,
+   "risk_index": 55.2
+  },
+  "A2": {
+   "near_miss": 4.0,
+   "prox_alert": 0,
+   "mix_slots": 0,
+   "people_avg": 10.5,
+   "crane_slots": 18,
+   "insp_open": 2,
+   "insp_recur": 0.0,
+   "risk_max": 20,
+   "high_days": 11.0,
+   "risk_index": 44.4
+  },
+  "D3": {
+   "near_miss": 2.0,
+   "prox_alert": 0,
+   "mix_slots": 124,
+   "people_avg": 4.7,
+   "crane_slots": 0,
+   "insp_open": 3,
+   "insp_recur": 2.0,
+   "risk_max": 10,
+   "high_days": 11.0,
+   "risk_index": 43.8
+  },
+  "B1": {
+   "near_miss": 1.0,
+   "prox_alert": 42,
+   "mix_slots": 64,
+   "people_avg": 4.9,
+   "crane_slots": 0,
+   "insp_open": 2,
+   "insp_recur": 1.0,
+   "risk_max": 16,
+   "high_days": 10.0,
+   "risk_index": 38.5
+  },
+  "B3": {
+   "near_miss": 0.0,
+   "prox_alert": 0,
+   "mix_slots": 129,
+   "people_avg": 5.4,
+   "crane_slots": 0,
+   "insp_open": 4,
+   "insp_recur": 0.0,
+   "risk_max": 15,
+   "high_days": 9.0,
+   "risk_index": 33.1
+  },
+  "A4": {
+   "near_miss": 3.0,
+   "prox_alert": 4,
+   "mix_slots": 0,
+   "people_avg": 0.1,
+   "crane_slots": 0,
+   "insp_open": 2,
+   "insp_recur": 2.0,
+   "risk_max": 16,
+   "high_days": 0.0,
+   "risk_index": 33.0
+  },
+  "C1": {
+   "near_miss": 4.0,
+   "prox_alert": 0,
+   "mix_slots": 0,
+   "people_avg": 6.1,
+   "crane_slots": 32,
+   "insp_open": 1,
+   "insp_recur": 0.0,
+   "risk_max": 15,
+   "high_days": 0.0,
+   "risk_index": 30.0
+  },
+  "D1": {
+   "near_miss": 0.0,
+   "prox_alert": 30,
+   "mix_slots": 38,
+   "people_avg": 2.8,
+   "crane_slots": 0,
+   "insp_open": 1,
+   "insp_recur": 1.0,
+   "risk_max": 20,
+   "high_days": 8.0,
+   "risk_index": 27.3
+  },
+  "A1": {
+   "near_miss": 2.0,
+   "prox_alert": 0,
+   "mix_slots": 0,
+   "people_avg": 6.1,
+   "crane_slots": 16,
+   "insp_open": 2,
+   "insp_recur": 1.0,
+   "risk_max": 15,
+   "high_days": 3.0,
+   "risk_index": 24.4
+  },
+  "C3": {
+   "near_miss": 1.0,
+   "prox_alert": 0,
+   "mix_slots": 0,
+   "people_avg": 3.3,
+   "crane_slots": 12,
+   "insp_open": 1,
+   "insp_recur": 2.0,
+   "risk_max": 15,
+   "high_days": 8.0,
+   "risk_index": 21.3
+  },
+  "A3": {
+   "near_miss": 2.0,
+   "prox_alert": 0,
+   "mix_slots": 0,
+   "people_avg": 2.9,
+   "crane_slots": 40,
+   "insp_open": 1,
+   "insp_recur": 0.0,
+   "risk_max": 15,
+   "high_days": 3.0,
+   "risk_index": 19.4
+  },
+  "C2": {
+   "near_miss": 0.0,
+   "prox_alert": 5,
+   "mix_slots": 0,
+   "people_avg": 6.1,
+   "crane_slots": 32,
+   "insp_open": 1,
+   "insp_recur": 2.0,
+   "risk_max": 15,
+   "high_days": 13.0,
+   "risk_index": 19.0
+  }
+ },
+ "risk_index_weights": {
+  "near_miss": 0.25,
+  "prox_alert": 0.15,
+  "mix_slots": 0.15,
+  "insp_open": 0.15,
+  "insp_recur": 0.1,
+  "risk_max": 0.1,
+  "high_days": 0.1
+ },
+ "hour_summary": {
+  "7.0": {
+   "prox_alert": 3,
+   "mix_slots": 40,
+   "near_miss": 0,
+   "deliveries": 0,
+   "lifts": 0
+  },
+  "8.0": {
+   "prox_alert": 13,
+   "mix_slots": 39,
+   "near_miss": 4,
+   "deliveries": 15,
+   "lifts": 2
+  },
+  "9.0": {
+   "prox_alert": 28,
+   "mix_slots": 59,
+   "near_miss": 6,
+   "deliveries": 33,
+   "lifts": 5
+  },
+  "10.0": {
+   "prox_alert": 33,
+   "mix_slots": 72,
+   "near_miss": 2,
+   "deliveries": 36,
+   "lifts": 11
+  },
+  "11.0": {
+   "prox_alert": 22,
+   "mix_slots": 66,
+   "near_miss": 4,
+   "deliveries": 0,
+   "lifts": 17
+  },
+  "12.0": {
+   "prox_alert": 0,
+   "mix_slots": 0,
+   "near_miss": 0,
+   "deliveries": 0,
+   "lifts": 0
+  },
+  "13.0": {
+   "prox_alert": 3,
+   "mix_slots": 36,
+   "near_miss": 4,
+   "deliveries": 0,
+   "lifts": 38
+  },
+  "14.0": {
+   "prox_alert": 26,
+   "mix_slots": 66,
+   "near_miss": 2,
+   "deliveries": 22,
+   "lifts": 10
+  },
+  "15.0": {
+   "prox_alert": 31,
+   "mix_slots": 72,
+   "near_miss": 2,
+   "deliveries": 10,
+   "lifts": 9
+  },
+  "16.0": {
+   "prox_alert": 5,
+   "mix_slots": 49,
+   "near_miss": 1,
+   "deliveries": 0,
+   "lifts": 7
+  }
+ },
+ "dow_alerts": {
+  "0": 38,
+  "1": 26,
+  "2": 29,
+  "3": 24,
+  "4": 22,
+  "5": 25
+ },
+ "dow_nearmiss": {
+  "0": 6,
+  "1": 3,
+  "2": 5,
+  "3": 3,
+  "4": 5,
+  "5": 3
+ },
+ "B2_alert_by_deliv": {
+  "0.0": 0.19,
+  "1.0": 0.92,
+  "2.0": 0.93,
+  "3.0": 0.6
+ },
+ "B2_alert_busy_vs_not": {
+  "False": {
+   "size": 143,
+   "sum": 0,
+   "mean": 0.0
+  },
+  "True": {
+   "size": 87,
+   "sum": 83,
+   "mean": 0.95
+  }
+ },
+ "delivery_slots_total": 56,
+ "delivery_slots_multi": 19,
+ "delivery_slots_3plus": 5,
+ "delivery_stats": {
+  "n_big": 80,
+  "wait_mean": 12.5,
+  "wait_max": 26,
+  "wait_total_min": 1001,
+  "unload_mean": 38.3,
+  "dwell_mean": 55.6,
+  "early_arrivals_30min_plus": 3,
+  "early_mean_min": 10.8,
+  "gate_in_by_hour": {
+   "9": 21,
+   "10": 27,
+   "14": 22,
+   "15": 10
+  },
+  "window_violation_reserved": 4
+ },
+ "unload_by_equipment": {
+  "FL-01": {
+   "count": 25,
+   "mean": 37.8
+  },
+  "FL-02": {
+   "count": 31,
+   "mean": 38.5
+  },
+  "FL-03": {
+   "count": 23,
+   "mean": 38.6
+  }
+ },
+ "staging_subzone": {
+  "B3": 37,
+  "A3": 22,
+  "C2": 14,
+  "C3": 7
+ },
+ "final_target": {
+  "D2": 27,
+  "C1": 14,
+  "A2": 13,
+  "D3": 10,
+  "A1": 9,
+  "C3": 7
+ },
+ "remicon": {
+  "2026-10-19": {
+   "n": 12,
+   "interval_mean": 13.1,
+   "min": 9,
+   "max": 16,
+   "out_of_12_15": 5,
+   "b1_wait_mean": 6.2,
+   "first_in": "08:03",
+   "last_in": "10:27"
+  },
+  "2026-10-23": {
+   "n": 12,
+   "interval_mean": 13.2,
+   "min": 9,
+   "max": 19,
+   "out_of_12_15": 8,
+   "b1_wait_mean": 5.8,
+   "first_in": "08:03",
+   "last_in": "10:28"
+  },
+  "2026-10-28": {
+   "n": 12,
+   "interval_mean": 13.5,
+   "min": 12,
+   "max": 16,
+   "out_of_12_15": 2,
+   "b1_wait_mean": 5.2,
+   "first_in": "08:03",
+   "last_in": "10:32"
+  }
+ },
+ "pour_day_general_deliveries": {
+  "2026-10-19": [
+   "09:11",
+   "09:21",
+   "10:38"
+  ],
+  "2026-10-23": [
+   "10:23",
+   "10:27",
+   "14:23",
+   "15:03"
+  ],
+  "2026-10-28": [
+   "09:17",
+   "10:13",
+   "14:13",
+   "14:15"
+  ]
+ },
+ "tc_overlap": {
+  "pairs": 8,
+  "total_min": 104,
+  "days": 5,
+  "detail": [
+   {
+    "Date": "2026-10-14",
+    "TC01": "LF-0025",
+    "TC02": "LF-0023",
+    "overlap_min": 10.0,
+    "start": "11:32"
+   },
+   {
+    "Date": "2026-10-14",
+    "TC01": "LF-0026",
+    "TC02": "LF-0024",
+    "overlap_min": 18.0,
+    "start": "13:05"
+   },
+   {
+    "Date": "2026-10-17",
+    "TC01": "LF-0042",
+    "TC02": "LF-0041",
+    "overlap_min": 17.0,
+    "start": "13:05"
+   },
+   {
+    "Date": "2026-10-20",
+    "TC01": "LF-0048",
+    "TC02": "LF-0051",
+    "overlap_min": 8.0,
+    "start": "11:21"
+   },
+   {
+    "Date": "2026-10-20",
+    "TC01": "LF-0050",
+    "TC02": "LF-0052",
+    "overlap_min": 21.0,
+    "start": "13:05"
+   },
+   {
+    "Date": "2026-10-20",
+    "TC01": "LF-0050",
+    "TC02": "LF-0053",
+    "overlap_min": 4.0,
+    "start": "13:31"
+   },
+   {
+    "Date": "2026-10-26",
+    "TC01": "LF-0107",
+    "TC02": "LF-0071",
+    "overlap_min": 3.0,
+    "start": "10:34"
+   },
+   {
+    "Date": "2026-10-30",
+    "TC01": "LF-0112",
+    "TC02": "LF-0088",
+    "overlap_min": 23.0,
+    "start": "10:10"
+   }
+  ]
+ },
+ "tc_both_active_days": 10,
+ "lift_hold": {
+  "n_wind": 13,
+  "n_delivery": 1,
+  "planned_min_lost": 280,
+  "days": [
+   "2026-10-15",
+   "2026-10-21",
+   "2026-10-22",
+   "2026-10-27"
+  ]
+ },
+ "signal_view_recurrence": 4,
+ "equipment": {
+  "EX-01": {
+   "days": 20,
+   "op": 5799,
+   "wait": 1142,
+   "mnt": 275,
+   "util_pct": 80.4,
+   "wait_per_day": 57.0
+  },
+  "EX-02": {
+   "days": 6,
+   "op": 1721,
+   "wait": 340,
+   "mnt": 50,
+   "util_pct": 81.5,
+   "wait_per_day": 57.0
+  },
+  "FL-01": {
+   "days": 23,
+   "op": 5927,
+   "wait": 1365,
+   "mnt": 250,
+   "util_pct": 78.6,
+   "wait_per_day": 59.0
+  },
+  "FL-02": {
+   "days": 23,
+   "op": 5494,
+   "wait": 1550,
+   "mnt": 425,
+   "util_pct": 73.6,
+   "wait_per_day": 67.0
+  },
+  "FL-03": {
+   "days": 23,
+   "op": 5743,
+   "wait": 1345,
+   "mnt": 285,
+   "util_pct": 77.9,
+   "wait_per_day": 58.0
+  },
+  "HST-01": {
+   "days": 10,
+   "op": 2034,
+   "wait": 429,
+   "mnt": 155,
+   "util_pct": 77.7,
+   "wait_per_day": 43.0
+  },
+  "MC-01": {
+   "days": 11,
+   "op": 945,
+   "wait": 1022,
+   "mnt": 150,
+   "util_pct": 44.6,
+   "wait_per_day": 93.0
+  },
+  "PC-01": {
+   "days": 3,
+   "op": 873,
+   "wait": 200,
+   "mnt": 50,
+   "util_pct": 77.7,
+   "wait_per_day": 67.0
+  },
+  "SL-01": {
+   "days": 15,
+   "op": 3797,
+   "wait": 896,
+   "mnt": 155,
+   "util_pct": 78.3,
+   "wait_per_day": 60.0
+  },
+  "SL-02": {
+   "days": 15,
+   "op": 3733,
+   "wait": 869,
+   "mnt": 240,
+   "util_pct": 77.1,
+   "wait_per_day": 58.0
+  },
+  "SL-03": {
+   "days": 17,
+   "op": 4644,
+   "wait": 1010,
+   "mnt": 240,
+   "util_pct": 78.8,
+   "wait_per_day": 59.0
+  },
+  "TC-01": {
+   "days": 23,
+   "op": 2356,
+   "wait": 1751,
+   "mnt": 235,
+   "util_pct": 54.3,
+   "wait_per_day": 76.0
+  },
+  "TC-02": {
+   "days": 17,
+   "op": 1810,
+   "wait": 1553,
+   "mnt": 145,
+   "util_pct": 51.6,
+   "wait_per_day": 91.0
+  }
+ },
+ "equipment_notes": {
+  "정상": 53,
+  "작업면 인계 대기": 48,
+  "자재순서 조정": 45,
+  "점검 후 재가동": 42,
+  "강풍 양중 보류(풍속 대기)": 8,
+  "양중 계획 없음(장비 점검·대기)": 6,
+  "타설일 양중 미계획(펌프카 타설)": 3,
+  "우천으로 양중 미실시": 1
+ },
+ "schedule": [
+  {
+   "Task_ID": "T001",
+   "Subzone": "A1",
+   "Task_Name": "코어벽 철근 조립",
+   "Planned_Finish": "2026-10-10",
+   "Forecast_Finish": "2026-10-12",
+   "Forecast_Variance_Days": "1",
+   "Delay_Reason_Code": "MAT_DELAY",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T002",
+   "Subzone": "A1",
+   "Task_Name": "코어벽 거푸집 설치",
+   "Planned_Finish": "2026-10-14",
+   "Forecast_Finish": "2026-10-16",
+   "Forecast_Variance_Days": "2",
+   "Delay_Reason_Code": "LIFT_SLOT",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T003",
+   "Subzone": "A2",
+   "Task_Name": "슬래브 데크·거푸집 설치",
+   "Planned_Finish": "2026-10-17",
+   "Forecast_Finish": "2026-10-20",
+   "Forecast_Variance_Days": "2",
+   "Delay_Reason_Code": "LIFT_SLOT",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T004",
+   "Subzone": "A2",
+   "Task_Name": "슬래브 철근 배근",
+   "Planned_Finish": "2026-10-23",
+   "Forecast_Finish": "2026-10-24",
+   "Forecast_Variance_Days": "1",
+   "Delay_Reason_Code": "MAT_DELAY",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T005",
+   "Subzone": "A2",
+   "Task_Name": "슬래브 콘크리트 타설",
+   "Planned_Finish": "2026-10-29",
+   "Forecast_Finish": "2026-11-02",
+   "Forecast_Variance_Days": "3",
+   "Delay_Reason_Code": "MAT_DELAY",
+   "Status_AsOf_2026_10_31": "In Progress",
+   "Progress_Pct": "87"
+  },
+  {
+   "Task_ID": "T006",
+   "Subzone": "A3",
+   "Task_Name": "건설용 호이스트 설치·시운전",
+   "Planned_Finish": "2026-11-03",
+   "Forecast_Finish": "2026-11-04",
+   "Forecast_Variance_Days": "1",
+   "Delay_Reason_Code": "MOB_DELAY",
+   "Status_AsOf_2026_10_31": "In Progress",
+   "Progress_Pct": "71"
+  },
+  {
+   "Task_ID": "T007",
+   "Subzone": "B1",
+   "Task_Name": "반입차량 게이트 운영",
+   "Planned_Finish": "2026-12-31",
+   "Forecast_Finish": "2026-12-31",
+   "Forecast_Variance_Days": "0",
+   "Delay_Reason_Code": "ONGOING",
+   "Status_AsOf_2026_10_31": "In Progress",
+   "Progress_Pct": "29"
+  },
+  {
+   "Task_ID": "T008",
+   "Subzone": "B2",
+   "Task_Name": "자재 하역·분류",
+   "Planned_Finish": "2026-12-31",
+   "Forecast_Finish": "2026-12-31",
+   "Forecast_Variance_Days": "0",
+   "Delay_Reason_Code": "ONGOING",
+   "Status_AsOf_2026_10_31": "In Progress",
+   "Progress_Pct": "29"
+  },
+  {
+   "Task_ID": "T009",
+   "Subzone": "B3",
+   "Task_Name": "자재 적치·불출",
+   "Planned_Finish": "2026-12-31",
+   "Forecast_Finish": "2026-12-31",
+   "Forecast_Variance_Days": "0",
+   "Delay_Reason_Code": "ONGOING",
+   "Status_AsOf_2026_10_31": "In Progress",
+   "Progress_Pct": "29"
+  },
+  {
+   "Task_ID": "T010",
+   "Subzone": "C1",
+   "Task_Name": "외장 브래킷 설치",
+   "Planned_Finish": "2026-10-20",
+   "Forecast_Finish": "2026-10-23",
+   "Forecast_Variance_Days": "3",
+   "Delay_Reason_Code": "LIFT_CONFLICT",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T011",
+   "Subzone": "C2",
+   "Task_Name": "커튼월 자재 양중",
+   "Planned_Finish": "2026-11-07",
+   "Forecast_Finish": "2026-11-09",
+   "Forecast_Variance_Days": "1",
+   "Delay_Reason_Code": "WIND_HOLD",
+   "Status_AsOf_2026_10_31": "In Progress",
+   "Progress_Pct": "64"
+  },
+  {
+   "Task_ID": "T012",
+   "Subzone": "C3",
+   "Task_Name": "파사드 보강철골 양중·설치",
+   "Planned_Finish": "2026-10-28",
+   "Forecast_Finish": "2026-10-30",
+   "Forecast_Variance_Days": "2",
+   "Delay_Reason_Code": "PERMIT_DELAY",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T013",
+   "Subzone": "D1",
+   "Task_Name": "지하램프 굴착면 정리",
+   "Planned_Finish": "2026-10-12",
+   "Forecast_Finish": "2026-10-12",
+   "Forecast_Variance_Days": "0",
+   "Delay_Reason_Code": "ROUTE_CONFLICT",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T014",
+   "Subzone": "D3",
+   "Task_Name": "흙막이 보수·방수 바탕정리",
+   "Planned_Finish": "2026-11-06",
+   "Forecast_Finish": "2026-11-07",
+   "Forecast_Variance_Days": "1",
+   "Delay_Reason_Code": "MEP_CONFLICT",
+   "Status_AsOf_2026_10_31": "In Progress",
+   "Progress_Pct": "65"
+  },
+  {
+   "Task_ID": "T015",
+   "Subzone": "D2",
+   "Task_Name": "슬리브·인서트 설치",
+   "Planned_Finish": "2026-10-17",
+   "Forecast_Finish": "2026-10-17",
+   "Forecast_Variance_Days": "0",
+   "Delay_Reason_Code": "DRAWING_REWORK",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T016",
+   "Subzone": "D2",
+   "Task_Name": "덕트·배관 지지대 설치",
+   "Planned_Finish": "2026-11-10",
+   "Forecast_Finish": "2026-11-12",
+   "Forecast_Variance_Days": "2",
+   "Delay_Reason_Code": "SPACE_CONFLICT",
+   "Status_AsOf_2026_10_31": "In Progress",
+   "Progress_Pct": "60"
+  },
+  {
+   "Task_ID": "T017",
+   "Subzone": "D2",
+   "Task_Name": "가설전기·조명 보강",
+   "Planned_Finish": "2026-10-21",
+   "Forecast_Finish": "2026-10-22",
+   "Forecast_Variance_Days": "1",
+   "Delay_Reason_Code": "CLOSEOUT_DELAY",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T018",
+   "Subzone": "D2",
+   "Task_Name": "배관 용접·화기작업",
+   "Planned_Finish": "2026-11-14",
+   "Forecast_Finish": "2026-11-16",
+   "Forecast_Variance_Days": "1",
+   "Delay_Reason_Code": "PERMIT_DELAY",
+   "Status_AsOf_2026_10_31": "In Progress",
+   "Progress_Pct": "40"
+  },
+  {
+   "Task_ID": "T019",
+   "Subzone": "A3",
+   "Task_Name": "1동 작업자 동선 분리시설 설치",
+   "Planned_Finish": "2026-10-10",
+   "Forecast_Finish": "2026-10-08",
+   "Forecast_Variance_Days": "-1",
+   "Delay_Reason_Code": "NONE",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T020",
+   "Subzone": "B1",
+   "Task_Name": "게이트 보행·차량 분리시설 개선",
+   "Planned_Finish": "2026-10-19",
+   "Forecast_Finish": "2026-10-21",
+   "Forecast_Variance_Days": "2",
+   "Delay_Reason_Code": "DELIVERY_PRESSURE",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T021",
+   "Subzone": "D1",
+   "Task_Name": "지하램프 임시 보행통로 설치",
+   "Planned_Finish": "2026-10-28",
+   "Forecast_Finish": "2026-10-30",
+   "Forecast_Variance_Days": "2",
+   "Delay_Reason_Code": "ROUTE_CONFLICT",
+   "Status_AsOf_2026_10_31": "Completed",
+   "Progress_Pct": "100"
+  },
+  {
+   "Task_ID": "T022",
+   "Subzone": "C2",
+   "Task_Name": "양중 통제구역 설정·유지",
+   "Planned_Finish": "2026-12-31",
+   "Forecast_Finish": "2026-12-31",
+   "Forecast_Variance_Days": "0",
+   "Delay_Reason_Code": "ONGOING",
+   "Status_AsOf_2026_10_31": "In Progress",
+   "Progress_Pct": "29"
+  }
+ ],
+ "schedule_variance_inprogress": 9,
+ "schedule_variance_all": 24,
+ "delay_reason_counts": {
+  "ONGOING": 4,
+  "MAT_DELAY": 3,
+  "LIFT_SLOT": 2,
+  "PERMIT_DELAY": 2,
+  "ROUTE_CONFLICT": 2,
+  "MOB_DELAY": 1,
+  "WIND_HOLD": 1,
+  "LIFT_CONFLICT": 1,
+  "MEP_CONFLICT": 1,
+  "DRAWING_REWORK": 1,
+  "SPACE_CONFLICT": 1,
+  "CLOSEOUT_DELAY": 1,
+  "NONE": 1,
+  "DELIVERY_PRESSURE": 1
+ },
+ "delay_days_by_reason": {
+  "CLOSEOUT_DELAY": 1,
+  "DELIVERY_PRESSURE": 2,
+  "DRAWING_REWORK": 0,
+  "LIFT_CONFLICT": 3,
+  "LIFT_SLOT": 4,
+  "MAT_DELAY": 5,
+  "MEP_CONFLICT": 1,
+  "MOB_DELAY": 1,
+  "NONE": -1,
+  "ONGOING": 0,
+  "PERMIT_DELAY": 3,
+  "ROUTE_CONFLICT": 2,
+  "SPACE_CONFLICT": 2,
+  "WIND_HOLD": 1
+ },
+ "crew_wait": {
+  "total_min": 930,
+  "events": 25,
+  "by_reason": {
+   "강풍 양중 보류": {
+    "count": 2,
+    "sum": 180
+   },
+   "강풍 양중 보류로 대기": {
+    "count": 3,
+    "sum": 160
+   },
+   "강풍으로 마스트 양중 보류": {
+    "count": 1,
+    "sum": 60
+   },
+   "강풍으로 오전 양중 보류": {
+    "count": 1,
+    "sum": 150
+   },
+   "양중순서 조정으로 대기": {
+    "count": 5,
+    "sum": 75
+   },
+   "자재반입 확인 대기": {
+    "count": 6,
+    "sum": 140
+   },
+   "작업면 인계 지연": {
+    "count": 7,
+    "sum": 165
+   }
+  },
+  "by_subzone": {
+   "A1": 110,
+   "A2": 260,
+   "A3": 60,
+   "C1": 100,
+   "C2": 160,
+   "C3": 240
+  },
+  "by_task": {
+   "T001": 10,
+   "T002": 100,
+   "T003": 155,
+   "T004": 105,
+   "T006": 60,
+   "T010": 100,
+   "T011": 160,
+   "T012": 240
+  }
+ },
+ "crew_wait_manhours": 226.4,
+ "crew_wait_manhours_by_reason": {
+  "강풍 양중 보류": 33.0,
+  "강풍 양중 보류로 대기": 43.7,
+  "강풍으로 마스트 양중 보류": 11.0,
+  "강풍으로 오전 양중 보류": 27.5,
+  "양중순서 조정으로 대기": 23.3,
+  "자재반입 확인 대기": 42.2,
+  "작업면 인계 지연": 45.8
+ },
+ "permit_gap": {
+  "T016_고소작업": {
+   "work_days": 17,
+   "permit_days": 0,
+   "missing": 17
+  },
+  "T010_고소작업": {
+   "work_days": 15,
+   "permit_days": 10,
+   "missing": 5
+  },
+  "T014_굴착·토공": {
+   "work_days": 14,
+   "permit_days": 8,
+   "missing": 6
+  },
+  "T013_굴착·토공": {
+   "work_days": 6,
+   "permit_days": 3,
+   "missing": 3
+  },
+  "T018_화기작업": {
+   "work_days": 11,
+   "permit_days": 11,
+   "missing": 0
+  }
+ },
+ "permit_missing_total": 31,
+ "tbm": {
+  "sessions": 282,
+  "sessions_with_absent": 110,
+  "absent_mandays": 164,
+  "by_subzone": {
+   "A1": 6,
+   "A2": 13,
+   "A3": 5,
+   "B1": 19,
+   "B2": 10,
+   "B3": 17,
+   "C1": 8,
+   "C2": 25,
+   "C3": 10,
+   "D1": 6,
+   "D2": 36,
+   "D3": 9
+  },
+  "attend_rate_pct": 94.7
+ },
+ "inspection": {
+  "n": 52,
+  "closed": 23,
+  "open": 29,
+  "overdue": 34,
+  "recur": 15,
+  "ttc_mean_h": 14.6,
+  "ttc_median_h": 2.7,
+  "open_age_mean_h": 349.0,
+  "by_severity": {
+   "High": {
+    "n": 13,
+    "closed": 8,
+    "overdue": 7
+   },
+   "Low": {
+    "n": 14,
+    "closed": 6,
+    "overdue": 9
+   },
+   "Medium": {
+    "n": 25,
+    "closed": 9,
+    "overdue": 18
+   }
+  },
+  "top_codes": {
+   "STACK_HEIGHT": 5,
+   "WATER_POOL": 5,
+   "SIGNAL_VIEW": 4,
+   "DUCT_STACK": 4,
+   "PUMP_HOSE": 3,
+   "MEP_STORAGE": 3,
+   "QUEUE_SIGN": 3,
+   "HOT_BLANKET": 3
+  },
+  "by_subzone_open": {
+   "A1": 2,
+   "A2": 2,
+   "A3": 1,
+   "A4": 2,
+   "B1": 2,
+   "B2": 2,
+   "B3": 4,
+   "C1": 1,
+   "C2": 1,
+   "C3": 1,
+   "D1": 1,
+   "D2": 7,
+   "D3": 3
+  }
+ },
+ "near_miss_by_type": {
+  "차량·타설 연계": 3,
+  "양중·배제구역 접근": 3,
+  "신호수 시야제한": 3,
+  "하역·지게차 충돌위험": 2,
+  "호이스트 출입위험": 2,
+  "토목장비·보행 접근": 2,
+  "자재·통로 간섭": 2,
+  "화기·불티 위험": 2,
+  "철근 적치·협착": 2,
+  "고소작업 낙하위험": 2,
+  "차량·보행자 교행": 1,
+  "인양물 회전 위험": 1
+ },
+ "near_miss_by_status": {
+  "Monitoring": 12,
+  "In Progress": 7,
+  "Closed": 6
+ },
+ "near_miss_linked_delivery": 6,
+ "near_miss_linked_lift": 7,
+ "high_concurrent_zone_days": 25,
+ "high_concurrent_by_zone": {
+  "A": 2,
+  "B": 6,
+  "C": 6,
+  "D": 11
+ },
+ "tc01_lift_over_A2_high_days": 5,
+ "D1_alerts_before_1013": 30,
+ "D1_alerts_after_1013": 0,
+ "kpi": [
+  {
+   "KPI": "B1·B2 사람·장비 혼재 슬롯 수",
+   "Before": 184,
+   "After(가정)": 129,
+   "Unit": "슬롯(1h)/23일",
+   "Files/Keys": "04_camera_object_log (Subzone, Slot_Start) ⟂ 05_delivery_log (Date, Gate_In_Time hour)",
+   "Formula": "People_Count≥5 & (Forklift+Truck+Excavator)≥1 인 슬롯 수",
+   "Assumption": "복수입문 슬롯 비율 34% → 슬롯 1대 제한 시 혼재 30% 감소(가정)"
+  },
+  {
+   "KPI": "B1·B2 근접경보 건수(참고지표)",
+   "Before": 125,
+   "After(가정)": 75,
+   "Unit": "건/23일",
+   "Files/Keys": "04_camera_object_log.Proximity_Alert_Count",
+   "Formula": "합계",
+   "Assumption": "경보 83건 중 100%가 장비≥2 슬롯에서 발생 → 장비 동시 2대 슬롯 40% 감소 가정"
+  },
+  {
+   "KPI": "대형자재 게이트 대기시간 합계",
+   "Before": 1001,
+   "After(가정)": 601,
+   "Unit": "분/80대",
+   "Files/Keys": "05_delivery_log: Gate_In_Time − Arrival_Time",
+   "Formula": "Σ(Gate_In − Arrival), 대형 80건",
+   "Assumption": "조기도착(≥30분) 차량 장외대기 안내 + 슬롯 재배정 → 대기 40% 감소 가정"
+  },
+  {
+   "KPI": "TC-01·TC-02 양중 시간중첩(C10 위반 후보)",
+   "Before": 8,
+   "After(가정)": 0,
+   "Unit": "쌍(총 104분)",
+   "Files/Keys": "06_lifting_log: Equipment_ID, Actual_Start/End (같은 Date)",
+   "Formula": "시간구간 교집합>0인 TC-01×TC-02 쌍",
+   "Assumption": "일일양중계획 자동 충돌검사 → 승인 전 시간 분리(0건 목표)"
+  },
+  {
+   "KPI": "동일 대구역 High 작업 동시일(Zone-일)",
+   "Before": 25,
+   "After(가정)": 18,
+   "Unit": "Zone·일",
+   "Files/Keys": "02_daily_work_plan: Date, Zone, Risk_Level",
+   "Formula": "같은 Date·Zone에 Risk_Level=High ≥2건",
+   "Assumption": "주간 Look-ahead 충돌검토로 30% 시차 분산 가정"
+  },
+  {
+   "KPI": "작업허가 미발행 작업일",
+   "Before": 31,
+   "After(가정)": 0,
+   "Unit": "일",
+   "Files/Keys": "11_work_permits ⟂ 02_daily_work_plan (Date, Task_ID, Permit_Type)",
+   "Formula": "작업일 − 동일 Task·유형 허가일",
+   "Assumption": "T016 고소작업 대상 가정. TBM 입력 시 허가 자동 체크로 0건"
+  },
+  {
+   "KPI": "안전점검 기한 내 미조치 건수",
+   "Before": 34,
+   "After(가정)": 17,
+   "Unit": "건/52",
+   "Files/Keys": "09_inspection_action_log: Due_DateTime, Closed_DateTime",
+   "Formula": "(Closed>Due) or (미완료 & Due<10/31 17:00)",
+   "Assumption": "기한 24h 전 자동알림 + 재발코드 에스컬레이션 → 50% 감소 가정"
+  },
+  {
+   "KPI": "TBM 미참석 인원(명·일)",
+   "Before": 164,
+   "After(가정)": 82,
+   "Unit": "명·일/23일",
+   "Files/Keys": "12_tbm_log ⟂ 02_daily_work_plan (Date, Task_ID)",
+   "Formula": "Σ max(Actual_Workers − Attendance_Count, 0)",
+   "Assumption": "출역(03) 연동 미참석 자동식별 + 보충TBM → 50% 감소 가정"
+  },
+  {
+   "KPI": "공종 작업대기 합계",
+   "Before": 930,
+   "After(가정)": 604,
+   "Unit": "분(226 인·시)",
+   "Files/Keys": "02_daily_work_plan.Crew_Waiting_Minutes",
+   "Formula": "Σ Crew_Waiting_Minutes",
+   "Assumption": "양중순서·자재반입 확인 대기(215분) 제거, 강풍 대기는 예보기반 재배치로 50% → 전체 35% 감소 가정"
+  },
+  {
+   "KPI": "진행중 공정 예측편차 합계",
+   "Before": 9,
+   "After(가정)": 6,
+   "Unit": "작업일",
+   "Files/Keys": "01_master_schedule: Forecast_Finish − Planned_Finish",
+   "Formula": "Σ Forecast_Variance_Days (In Progress)",
+   "Assumption": "LIFT_SLOT·MAT_DELAY·SPACE_CONFLICT 연계 3일 회복 가정(추가 지연 0 목표)"
+  }
+ ]
+}
