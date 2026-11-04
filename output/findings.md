@@ -72,6 +72,8 @@
 | **P2** | **양중 충돌 사전점검 — TC 중첩·풍속·하부작업 (R3+R6)** | 공정지연 8일 직접연계(LIFT_SLOT·CONFLICT·WIND), 06·13으로 사전탐지 가능 |
 | **P3** | **안전조치 추적 — 허가·TBM·지적 통합 (R7, D2 우선)** | 미조치 65%·재발 15건·허가 0% 공정 존재, 기존 기록 연결만으로 해결 |
 
+**우선순위 강건성 검증** (`fig10_sensitivity.png`, `analysis/04_sensitivity.py`) — 위험지수 가중치 7개를 무작위(Dirichlet)로 5,000회 교란해도 **D2는 88%, B2는 70%의 확률로 상위 3위 유지** (3위 이하 구역은 최대 43%). 7개 지표 중 어느 하나를 제거해도 D2·B2가 Top-3에 남음 → P1(B구역)·P3(D2) 선정은 가정 가중치에 의존하지 않음. [외부참고: BuildSmart 가중치 조정 패턴을 민감도 검정으로 전용, `reference_buildsmart_review.md`]
+
 ## 5. 안전·공정 데이터 분석결과 (그림 1·2·7·8·9)
 
 ### 5.1 어디서 — 구역 종합 위험지수
@@ -169,6 +171,8 @@ D2 68 > **B2 55** > A2 44 ≈ D3 44 > B1 38 > B3 33 ≈ A4 33 > C1 30 > D1 27 > 
 | `output/fig5_before_after.png` | 적용 전·후 비교표 (필수⑤) |
 | `output/fig6_roadmap_90d.png` | 90일 실행로드맵 (필수⑥) |
 | `output/fig7~9` | 공정편차·대기 / 반입슬롯·경보 / 안전프로세스 (보조) |
+| `output/fig10_sensitivity.png` | 위험지수 가중치 민감도 (우선순위 강건성) |
 | `output/quality_report.md` | 데이터 품질 진단·정제기준 (AI활용·검증기록 별첨용) |
+| `output/reference_buildsmart_review.md` | 외부 참고자료(BuildSmart) 검토 — 채택 4·배제 6·반면교사, 별첨 기재용 요약 |
 | `output/kpi_table.csv`, `analysis_results.json` | KPI 산식·수치 전체 |
 | `analysis/01~03_*.py` | 재현 스크립트 |

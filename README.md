@@ -9,9 +9,11 @@ analysis/    재현 가능한 분석 스크립트
   01_quality_check.py    데이터 품질 진단 → output/quality_report.md
   02_core_analysis.py    위험·간섭·공정·KPI 분석 → output/analysis_results.json, kpi_table.csv
   03_visuals.py          필수 시각자료 6종 + 보조 3종 → output/fig*.png
+  04_sensitivity.py      위험지수 가중치 민감도(우선순위 강건성) → output/fig10_sensitivity.png
 output/
   findings.md            9장 목차 기준 분석결과·해결안 초안 (PDF 작성 원고)
   quality_report.md      정제·가정·제외 기준 (AI활용·검증기록 별첨용)
+  reference_buildsmart_review.md  외부 참고자료(BuildSmart) 검토 — 채택/배제/반면교사
   fig1~6                 필수 시각자료 / fig7~9 보조
 ```
 
