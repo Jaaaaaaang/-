@@ -1,0 +1,11 @@
+﻿KPI,Before,After(가정),Unit,Files/Keys,Formula,Assumption
+B1·B2 사람·장비 혼재 슬롯 수,184,129,슬롯(1h)/23일,"04_camera_object_log (Subzone, Slot_Start) ⟂ 05_delivery_log (Date, Gate_In_Time hour)",People_Count≥5 & (Forklift+Truck+Excavator)≥1 인 슬롯 수,복수입문 슬롯 비율 34% → 슬롯 1대 제한 시 혼재 30% 감소(가정)
+B1·B2 근접경보 건수(참고지표),125,75,건/23일,04_camera_object_log.Proximity_Alert_Count,합계,경보 83건 중 100%가 장비≥2 슬롯에서 발생 → 장비 동시 2대 슬롯 40% 감소 가정
+대형자재 게이트 대기시간 합계,1001,601,분/80대,05_delivery_log: Gate_In_Time − Arrival_Time,"Σ(Gate_In − Arrival), 대형 80건",조기도착(≥30분) 차량 장외대기 안내 + 슬롯 재배정 → 대기 40% 감소 가정
+TC-01·TC-02 양중 시간중첩(C10 위반 후보),8,0,쌍(총 104분),"06_lifting_log: Equipment_ID, Actual_Start/End (같은 Date)",시간구간 교집합>0인 TC-01×TC-02 쌍,일일양중계획 자동 충돌검사 → 승인 전 시간 분리(0건 목표)
+동일 대구역 High 작업 동시일(Zone-일),25,18,Zone·일,"02_daily_work_plan: Date, Zone, Risk_Level",같은 Date·Zone에 Risk_Level=High ≥2건,주간 Look-ahead 충돌검토로 30% 시차 분산 가정
+작업허가 미발행 작업일,31,0,일,"11_work_permits ⟂ 02_daily_work_plan (Date, Task_ID, Permit_Type)",작업일 − 동일 Task·유형 허가일,T016 고소작업 대상 가정. TBM 입력 시 허가 자동 체크로 0건
+안전점검 기한 내 미조치 건수,34,17,건/52,"09_inspection_action_log: Due_DateTime, Closed_DateTime",(Closed>Due) or (미완료 & Due<10/31 17:00),기한 24h 전 자동알림 + 재발코드 에스컬레이션 → 50% 감소 가정
+TBM 미참석 인원(명·일),164,82,명·일/23일,"12_tbm_log ⟂ 02_daily_work_plan (Date, Task_ID)","Σ max(Actual_Workers − Attendance_Count, 0)",출역(03) 연동 미참석 자동식별 + 보충TBM → 50% 감소 가정
+공종 작업대기 합계,930,604,분(226 인·시),02_daily_work_plan.Crew_Waiting_Minutes,Σ Crew_Waiting_Minutes,"양중순서·자재반입 확인 대기(215분) 제거, 강풍 대기는 예보기반 재배치로 50% → 전체 35% 감소 가정"
+진행중 공정 예측편차 합계,9,6,작업일,01_master_schedule: Forecast_Finish − Planned_Finish,Σ Forecast_Variance_Days (In Progress),LIFT_SLOT·MAT_DELAY·SPACE_CONFLICT 연계 3일 회복 가정(추가 지연 0 목표)
