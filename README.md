@@ -15,6 +15,9 @@ output/
   risk_factors.md        미션1 위험요인 7개 상세 설명
   quality_report.md      정제·가정·제외 기준 (AI활용·검증기록 별첨용)
   reference_buildsmart_review.md  외부 참고자료(BuildSmart) 검토 — 채택/배제/반면교사
+  qna_compliance.md      운영사무국 Q&A 반영 체크리스트 + 가정↔제약 모순 점검
+  예선결과물_SCX_NEXT.pdf  최종 제출용 PDF (표지 포함 15쪽)
+report/      PDF 원고(part1~3.html) + style.css + build_pdf.py (WeasyPrint)
   fig1~6                 필수 시각자료 / fig7~9 보조
 ```
 
